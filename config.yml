@@ -1,0 +1,52 @@
+baseURL: https://allinleeyl.github.io/
+languageCode: en-us
+title: Yilin's Home
+theme: PaperMod
+enableRobotsTXT: true
+enableInlineShortcodes: true
+params:
+  env: production
+  title: Lee
+  description: This is Yilin Li's homepage.
+  defaultTheme: auto
+  social: true
+  ShowToc: false
+  hideSummary: false
+  taxonomies:
+    category: categories
+    tag: tags
+    series: series
+  homeInfoParams:
+    Title: Yilin's Home
+    Content: >
+      Hi, 👋
+
+
+      My name is Yilin Li. My hobby is finding new things and giving it a try constantly. This is a place where I'd like to share my experience and ideas.I am currently still a graduate student majoring in computer science. My research interests include program analysis and coarse-grained reconfigurable array (CGRA).
+
+
+      🎓**MEng** Computer Technology, University of Chinese Academy of Sciences, 2022-2025
+
+
+      🎓**BSc** Computer Science and Technology, [Nankai University](https://en.nankai.edu.cn/), 2018-2022
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: https://github.com/AllinLeeYL
+menus:
+  main:
+    # - name: Research
+    #   url: about
+    #   weight: 10
+    # - name: Posts
+    #   url: posts/
+    #   weight: 20
+    - name: Tags
+      url: tags/
+      weight: 30
+    - name: Archive
+      url: archives/
+      weight: 40
+caches:
+  images:
+    dir: :cacheDir/images
