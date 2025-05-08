@@ -1,12 +1,15 @@
 baseURL: https://allinleeyl.github.io/
 languageCode: en-us
-title: Yilin's Home
+title: Yilin Li
 theme: PaperMod
 enableRobotsTXT: true
 enableInlineShortcodes: true
 params:
   env: production
   title: Lee
+  label: 
+    icon: "bird-svgrepo-com.svg"
+    text: "Yilin Li"
   description: This is Yilin Li's homepage.
   defaultTheme: auto
   social: true
@@ -16,31 +19,64 @@ params:
     category: categories
     tag: tags
     series: series
-  homeInfoParams:
-    Title: Yilin's Home
+  education:
+    - name: University of Groningen
+      url: https://www.rug.nl/?lang=en
+      period: 2026 - Present
+      logo: "rug_logo.svg"
+      type: PhD
+    - name: University of Chinese Academy of Sciences
+      url: https://english.ucas.ac.cn
+      period: 2022 - 2025
+      logo: ucas_logo.png
+      type: MSc
+    - name: Nankai University
+      url: https://en.nankai.edu.cn/
+      period: 2018 - 2022
+      logo: "nku_logo.svg"
+      type: BSc
+  profileMode:
+    enabled: true
+    imageUrl: "https://images.unsplash.com/profile-1763801302802-a88de33d492dimage?w=150&dpr=2&crop=faces&bg=%23fff&h=150&auto=format&fit=crop&q=60&ixlib=rb-4.1.0" # optional
     Content: >
       Hi, 👋
 
 
-      My name is Yilin Li. My hobby is finding new things and giving it a try constantly. This is a place where I'd like to share my experience and ideas.I am currently still a graduate student majoring in computer science. My research interests include program analysis and coarse-grained reconfigurable array (CGRA).
+      I am a PhD student in CogniGron group at the University of Groningen. My recent research focuses on **secure neuromorphic computing**. 
 
-
-      🎓**MEng** Computer Technology, University of Chinese Academy of Sciences, 2022-2025
-
-
-      🎓**BSc** Computer Science and Technology, [Nankai University](https://en.nankai.edu.cn/), 2018-2022
+      Before that, my research entailed program analysis and [coarse-grained reconfigurable array (CGRA)](https://github.com/AllinLeeYL/CGRA-Tool). 
+      
+      
+      Outside of work, I enjoys swimming, bycicling in the cities, and photographing.
+  
   socialIcons:
     - name: github
-      title: View Source on Github
+      title: View Yilin's Github homepage
       url: https://github.com/AllinLeeYL
+    - name: googlescholar
+      title: View Yilin's Google Scholar profile
+      url: https://scholar.google.com/citations?user=T0IQqpYAAAAJ&hl=en
 menus:
   main:
-    # - name: Research
-    #   url: about
-    #   weight: 10
-    # - name: Posts
-    #   url: posts/
-    #   weight: 20
+    - name: Bio
+      url: /
+      weight: 10
+    - name: Research
+      url: research/
+      weight: 20
+    - name: Experience
+      url: experience/
+      weight: 30
+    - name: Blog
+      url: posts/
+      weight: 40
+  post:
+    - name: Bio
+      url: /
+      weight: 10
+    - name: Posts
+      url: posts/
+      weight: 20
     - name: Tags
       url: tags/
       weight: 30

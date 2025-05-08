@@ -1,0 +1,33 @@
+{{- if lt hugo.Version "0.146.0" }}
+{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme `dark` -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+    {{- partialCached "header.html" . .Page -}}
+    {{- if (findRE "://[^/]+/$" .Page.Permalink) }}
+    <main class="main" style="max-width: calc(var(--main-width) * 1.4 + var(--gap) * 2);">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{- else }}
+    <main class="main" style="max-width: calc(var(--main-width) + var(--gap) * 2);">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{- end }}
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>

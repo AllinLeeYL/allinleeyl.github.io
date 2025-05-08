@@ -1,0 +1,56 @@
+.profile .profile_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .profile .profile_row {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        clear: both;
+    }
+}
+
+.profile .custom-left-col {
+    align-items: center;
+    float: left;
+    width: 25%;
+}
+
+@media (max-width: 768px) {
+    .profile .custom-left-col {
+        width: 100%;
+    }
+}
+
+.profile .custom-right-col {
+    float: right;
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    .profile .custom-right-col {
+        width: 95%;
+    }
+}
+
+.profile .custom-profile-content {
+    margin: 8px 0;
+    color: var(--secondary);
+    font-size: 18px;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: unset;
+    text-align: left;
+}
+
+.profile .education-list {
+    list-style: none;
+    text-align: left;
+}
