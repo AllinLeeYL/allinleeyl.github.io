@@ -17,12 +17,12 @@ params:
     tag: tags
     series: series
   homeInfoParams:
-    Title: Yilin's Home
+    Title: Aboue Me
     Content: >
       Hi, 👋
 
 
-      My name is Yilin Li. My hobby is finding new things and giving it a try constantly. This is a place where I'd like to share my experience and ideas.I am currently still a graduate student majoring in computer science. My research interests include program analysis and coarse-grained reconfigurable array (CGRA).
+      My name is Yilin Li. My hobby is constantly discovering new things and giving them a try. This is a place where I'd like to share my experience and ideas. I am currently still a graduate student majoring in computer science. My research interests include program analysis and coarse-grained reconfigurable array (CGRA). I am developing a simple [CGRA compilation framework](https://github.com/AllinLeeYL/CGRA-Tool) as a recent project.
 
 
       🎓**MEng** Computer Technology, University of Chinese Academy of Sciences, 2022-2025
@@ -35,9 +35,9 @@ params:
       url: https://github.com/AllinLeeYL
 menus:
   main:
-    # - name: Research
-    #   url: about
-    #   weight: 10
+    - name: Research
+      url: research
+      weight: 10
     # - name: Posts
     #   url: posts/
     #   weight: 20
