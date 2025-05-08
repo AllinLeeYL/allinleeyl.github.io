@@ -17,7 +17,7 @@ params:
     tag: tags
     series: series
   homeInfoParams:
-    Title: Yilin's Home
+    Title: Aboue Me
     Content: >
       Hi, 👋
 
@@ -35,9 +35,9 @@ params:
       url: https://github.com/AllinLeeYL
 menus:
   main:
-    # - name: Research
-    #   url: about
-    #   weight: 10
+    - name: Research
+      url: research
+      weight: 10
     # - name: Posts
     #   url: posts/
     #   weight: 20
