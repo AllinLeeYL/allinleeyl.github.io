@@ -6,6 +6,8 @@ enableRobotsTXT: true
 enableInlineShortcodes: true
 params:
   env: production
+  author:
+    email: 
   title: Lee
   label: 
     icon: "bird-svgrepo-com.svg"
@@ -42,7 +44,7 @@ params:
       Hi, 👋
 
 
-      I am a PhD student in CogniGron group at the University of Groningen. My recent research focuses on **secure neuromorphic computing**. 
+      I am a PhD staff at the University of Groningen, funded by the [REACT MSCA Doctoral Network](https://project-react.eu/). My recent research focuses on **secure neuromorphic computing**. 
 
       Before that, my research entailed program analysis and [coarse-grained reconfigurable array (CGRA)](https://github.com/AllinLeeYL/CGRA-Tool). 
       
