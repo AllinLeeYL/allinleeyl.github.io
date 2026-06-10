@@ -1,9 +1,9 @@
-+++
-title = 'Swift Language Notes'
-date = 2024-10-27T23:13:18+08:00
-draft = false
-tags = ["programming language"]
-+++
+---
+title: 'Swift Language Notes'
+date: 2024-10-27T23:13:18+08:00
+draft: false
+tags: ["programming language"]
+---
 
 This is a note from the Video [Learn the Essentials of Swift in one hour](https://www.youtube.com/watch?v=n5X_V81OYnQ&t=1239s). It aims to conclude the most frequently used grammar and features and give some examples, rather than cover all the grammar listed by [this site](https://docs.swift.org/swift-book/documentation/the-swift-programming-language). 
 

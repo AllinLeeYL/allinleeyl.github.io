@@ -1,9 +1,9 @@
-+++
-title = 'How to Debug C/C++ Code in VScode'
-date = 2024-11-10T19:32:49+08:00
-draft = false
-tags = ["how to", "programming"]
-+++
+---
+title: 'How to Debug C/C++ Code in VScode'
+date: 2024-11-10T19:32:49+08:00
+draft: false
+tags: ["how to", "programming"]
+---
 
 # Q&A
 

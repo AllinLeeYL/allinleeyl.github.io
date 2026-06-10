@@ -8,7 +8,7 @@ params:
   env: production
   author:
     email: 
-  title: Lee
+  title: Li's Homepage
   label: 
     icon: "bird-svgrepo-com.svg"
     text: "Yilin Li"
@@ -44,13 +44,27 @@ params:
       Hi, 👋
 
 
-      I am a PhD staff at the University of Groningen, funded by the [REACT MSCA Doctoral Network](https://project-react.eu/). My recent research focuses on **secure neuromorphic computing**. 
+      I am a PhD staff at the University of Groningen, funded by the [REACT MSCA Doctoral Network](https://project-react.eu/). My recent research focuses on **hardware security**. 
 
       Before that, my research entailed program analysis and [coarse-grained reconfigurable array (CGRA)](https://github.com/AllinLeeYL/CGRA-Tool). 
       
       
-      Outside of work, I enjoys swimming, bycicling in the cities, and photographing.
-  
+      Outside of work, I enjoy swimming, cycling around the city, and photographing.
+
+    BottomContent: >
+      **Open Source Updates**
+
+
+      2026-Jun-10: Commit [(#7751)](https://github.com/verilator/verilator/pull/7751) to [Verilator](https://github.com/verilator/verilator) fixing bug [(#7742)](https://github.com/verilator/verilator/issues/7742) has been merged.
+
+
+      2026-Apr-08: Commit [(#2445)](https://github.com/enjoy-digital/litex/pull/2445) to [litex](https://github.com/enjoy-digital/litex) supporting Gowin for MacOS has bee merged.
+
+
+      2025-Apr-23: Commit [(#135140)](https://github.com/llvm/llvm-project/pull/135140) to [LLVM](https://github.com/llvm/llvm-project) supporting unnamed bb has been merged.
+
+
+      2025-Apr-22: Commit [(#360)](https://github.com/titzer/wizard-engine/pull/360) to [wizard](https://github.com/titzer/wizard-engine) adding a call graph monitor has been merged.
   socialIcons:
     - name: github
       title: View Yilin's Github homepage

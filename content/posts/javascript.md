@@ -1,9 +1,9 @@
-+++
-title = 'Javascript Language Notes'
-date = 2025-01-02T18:49:04+08:00
-draft = false
-tags = ["programming languages"]
-+++
+---
+title: 'Javascript Language Notes'
+date: 2025-01-02T18:49:04+08:00
+draft: false
+tags: ["programming languages"]
+---
 
 # Variables and Constants
 

@@ -1,9 +1,9 @@
-+++
-title = 'Git Usage Notes'
-date = 2025-01-02T18:56:07+08:00
-draft = false
-tags = ["programming"]
-+++
+---
+title: 'Git Usage Notes'
+date: 2025-01-02T18:56:07+08:00
+draft: false
+tags: ["programming"]
+---
 
 # Some Fancy Commands
 
