@@ -6,8 +6,7 @@ enableRobotsTXT: true
 enableInlineShortcodes: true
 params:
   env: production
-  author:
-    email:
+  author: Yilin Li
   title: Li's Homepage
   label:
     icon: "bird-svgrepo-com.svg"
