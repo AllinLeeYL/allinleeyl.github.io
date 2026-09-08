@@ -77,7 +77,7 @@ Rust     55h eng +  8h wait =  63h   ██████████████�
 
 These numbers are obviously illustrative rather than benchmarks. Python wins on initial implementation time but loses badly when the program is logically complex and needs to run repeatedly. Rust produces the fastest implementation, but I may spend far more time engineering it. Go does not win either category individually. It wins the **total**. And that is exactly why I like it.
 
-## Go is boring, but that is why it is useful
+## Go is boring, but that's where its power lies
 
 Go does not try to give me every possible abstraction. Its type system is comparatively simple. Its garbage collector means I give up some control over memory management. It does not provide the same zero-cost abstraction philosophy as Rust or C++. But in return, I get:
 
