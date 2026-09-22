@@ -1,8 +1,16 @@
 ---
-title: "Why Go Became My Favorite Language for PhD Research"
+title: "Why Go is No More My Favorite Language"
 date: 2026-09-08T19:19:18+08:00
 draft: false
 tags: ["programming language"]
+---
+
+**UPDATE: Okay, I gave up.** After spending some time with Go, I found if err != nil {} everywhere in my code, and it started to hurt readability quite a bit.
+
+But what ultimately made me give up on Go was multithreading. Yes, you didn't hear it wrong.  Writing lightweight goroutines is easy, but for a beginner, maintaining thread safety is something not easy. Even as a Rust beginner, you can eventually write thread-safe concurrent code—after fighting with the compiler.
+
+I’m not ashamed to admit that I’m a shitty programmer, and in my case, the time spent fighting with the Rust compiler is worth it. I would rather have the compiler aggressively point out my mistakes than discover them later as subtle, bizzare concurrency bugs.
+
 ---
 
 I need something dramatically faster than Python, while minimizing the amount of my PhD that I spend engineering software.
