@@ -13,6 +13,8 @@ I’m not ashamed to admit that I’m a shitty programmer, and in my case, the t
 
 ---
 
+# Why Go was My Favorate Language
+
 I need something dramatically faster than Python, while minimizing the amount of my PhD that I spend engineering software.
 
 As a PhD researcher, I have gradually settled on Go as my favorite general-purpose programming language. I use it for prototyping small research tools, validating ideas, building utilities, and even writing script-like programs that glue different parts of my workflow together.

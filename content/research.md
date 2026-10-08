@@ -5,7 +5,12 @@ title: ''
 hidemeta: true
 ---
 
+# Research
+
+My research now focus on before-silicon verification, especially RISC-V fuzzing, funded by the [European Horizon MSCA Doctoral Network REACT "Self-AwaRe NEuromorphic ArChiTectures: Security, Reliability and Energy Efficiency"](https://project-react.eu/). The goal of my project is to find hardware design bugs and detect vulnerabilities as early as possible to reduce the re-spin cost.
+
 # Conference Papers
 
+* Dharmadasa, D., Yu, Z., Li, Y., Chen, Y., Gong, L., & Merchant F. (2026). Rethinking Emerging Memory Technologies for Neuromorphic Computing: Architectural Foundations and Security–Privacy Implications. ICEdge.
 * Li, Y., Li, S., & Shen, H. (2023). HTrans: Transformer-Based Method for Hardware Trojan Detection and Localization. 2023 IEEE 32nd Asian Test Symposium (ATS), 1–6. https://doi.org/10.1109/ATS59501.2023.10317971
 * Li, Y., Pan, X., Zhao, D., Wang, M., & Wen, Y. (2022). AOED: Generating SQL with the Aggregation Operator Enhanced Decoding. International Conference on Web Information Systems and Applications, 206–215. https://doi.org/10.1007/978-3-031-20309-1_18

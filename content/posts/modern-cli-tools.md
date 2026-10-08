@@ -2,6 +2,7 @@
 date: '2026-09-22T21:29:17+02:00'
 draft: false
 title: 'Modern Cli Tools'
+tags: ["tools"]
 ---
 
 In this post, I will introduce some of my favorite modern command-line tools. These tools have substantially improved my quality of life when working in the terminal and made the command-line experience much more pleasant.
