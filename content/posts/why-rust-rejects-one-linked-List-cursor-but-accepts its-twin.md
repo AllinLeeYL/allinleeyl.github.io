@@ -5,8 +5,6 @@ draft: false
 tags: ["programming language"]
 ---
 
-# Why Rust Rejects One Linked-List Cursor but Accepts Its Twin
-
 Two cursor loops over a singly linked list look equivalent, but only one compiles. The difference comes down to how many borrows each version creates.
 
 ## The data structure

@@ -1,0 +1,15 @@
+[tools]
+hugo = "0.167.0"
+hugo-extended = "latest"
+
+[tasks.server]
+description = "Run local hugo server. Usage: `mise run server`"
+run = [
+    "hugo server"
+]
+
+[tasks.new]
+description = "Create new content. Usage: `mise run new -- content/posts/blog.md`"
+run = [
+    "hugo new content"
+]
