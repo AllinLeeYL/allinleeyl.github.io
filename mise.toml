@@ -5,7 +5,7 @@ hugo-extended = "latest"
 [tasks.server]
 description = "Run local hugo server. Usage: `mise run server`"
 run = [
-    "hugo server"
+    "hugo server --bind 0.0.0.0"
 ]
 
 [tasks.new]
